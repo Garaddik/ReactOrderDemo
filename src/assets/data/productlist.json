@@ -1,0 +1,56 @@
+[{
+  "productNumber":"1",
+  "name":"NOTE 10",
+  "specification":"4G Android 9 Sim Free Unlocked Smartphone, 5.93 inch FHD+ Display with 4000mAh Battery, 4GB RAM+32GB ROM, 128GB Extension, Dual Sim Dual Camera Mobile phone (Gradient)",
+  "img":"/assets/item1.jpg",
+  "price":"99.99"
+},
+  {
+    "productNumber":"2",
+    "name":"Ulefone Note 7",
+    "specification":"Triple Rear Camera SIM Free Smartphones Unlocked, Triple Card Slots, 6.1 Inch Full-screen Dual SIM Android 9 Phone, 3500mAh, Face Unlock, UK Version - Black",
+    "img":"/assets/item2.jpg",
+    "price":"59.99"
+  },
+  {
+    "productNumber":"3",
+    "name":"Huawei Y6",
+    "specification":"32 GB 6.09 Inch FullView Dewdrop Display Smartphone with 13 MP Camera, Android 9.0 Sim-Free Mobile Phone, UK Version, Midnight Black",
+    "img":"/assets/item3.jpg",
+    "price":"99.99"
+  },
+  {
+    "productNumber":"3",
+    "name":"Huawei Y6",
+    "specification":"32 GB 6.09 Inch FullView Dewdrop Display Smartphone with 13 MP Camera, Android 9.0 Sim-Free Mobile Phone, UK Version, Midnight Black",
+    "img":"/assets/item3.jpg",
+    "price":"99.99"
+  },
+  {
+    "productNumber":"1",
+    "name":"NOTE 10",
+    "specification":"4G Android 9 Sim Free Unlocked Smartphone, 5.93 inch FHD+ Display with 4000mAh Battery, 4GB RAM+32GB ROM, 128GB Extension, Dual Sim Dual Camera Mobile phone (Gradient)",
+    "img":"/assets/item1.jpg",
+    "price":"99.99"
+  },
+    {
+      "productNumber":"2",
+      "name":"Ulefone Note 7",
+      "specification":"Triple Rear Camera SIM Free Smartphones Unlocked, Triple Card Slots, 6.1 Inch Full-screen Dual SIM Android 9 Phone, 3500mAh, Face Unlock, UK Version - Black",
+      "img":"/assets/item2.jpg",
+      "price":"59.99"
+    },
+    {
+      "productNumber":"3",
+      "name":"Huawei Y6",
+      "specification":"32 GB 6.09 Inch FullView Dewdrop Display Smartphone with 13 MP Camera, Android 9.0 Sim-Free Mobile Phone, UK Version, Midnight Black",
+      "img":"/assets/item3.jpg",
+      "price":"99.99"
+    },
+    {
+      "productNumber":"3",
+      "name":"Huawei Y6",
+      "specification":"32 GB 6.09 Inch FullView Dewdrop Display Smartphone with 13 MP Camera, Android 9.0 Sim-Free Mobile Phone, UK Version, Midnight Black",
+      "img":"/assets/item3.jpg",
+      "price":"99.99"
+    }]

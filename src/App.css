@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  margin: 10px 20px 10px 20px;
+}
+.horizontal-line-css{    border-bottom: 3px solid black;
+}
+.cart-count-css{
+    vertical-align: top;
+    color: blue;
+}
+
+.orderlist-css{
+  text-align:center;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.cart-css{ margin-right: 20px;
+   text-align: right;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card img{
+       height: 300px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card-list{
+  position: relative;
+  display:inline-block;
+}
+
+.width69{
+  width: 69%;
+}
+
+.width100{
+  width: 100%;
+}
