@@ -1,9 +1,7 @@
 import fetch from 'isomorphic-fetch'
-import {GETORDERS,POSTORDERS, PRODUCTS} from './actionType'
+import {GETORDERS,POSTORDERS, PRODUCTS,API_URL} from './actionType'
 import data from '../assets/data/productlist.json';
 import ordersJSON from '../assets/data/orderlist.json';
-
-const API_URL = "http://localhost:8080";
 
 function recieveOrders(json){
     return {
