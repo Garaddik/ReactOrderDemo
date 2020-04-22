@@ -4,6 +4,13 @@ import ItemImage from '../../assets/item6.jpg'
 import fetch from 'isomorphic-fetch'
 import {API_URL} from './../../actions/actionType'
 
+
+let headers = new Headers({
+    'Access-Control-Allow-Origin':'*',
+    'content-type': 'application/json' 
+
+})
+
 class Orders extends Component{
     
     constructor(props){
