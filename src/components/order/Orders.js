@@ -28,12 +28,12 @@ class Orders extends Component{
         }
         )
         .then(response => {
-            this.setState({
-                orders: this.state.orders
-            })
+            return response.json()
         })
-        .then(error =>{
-            console.log("API call error")
+        .then(data => {
+            this.setState({
+                orders: data
+            })
         })
     }
 
