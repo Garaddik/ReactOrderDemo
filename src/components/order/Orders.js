@@ -1,17 +1,33 @@
 import React,{Component} from 'react'
 import HeaderImage from '../../assets/header.PNG'
 import ItemImage from '../../assets/item6.jpg'
+import fetch from 'isomorphic-fetch'
+import {API_URL} from './../../actions/actionType'
 
 class Orders extends Component{
     
     constructor(props){
         super(props)
+        this.state={
+            orders:[]
+        }
     }
 
     componentDidMount(){
         const {dispatch,actions} = this.props
-        dispatch(actions.fetchOrders())
-        
+        fetch(API_URL+`/api/v1/orders`,
+        {
+            headers: headers
+        }
+        )
+        .then(response => {
+            this.setState({
+                orders: this.state.orders
+            })
+        })
+        .then(error =>{
+            console.log("API call error")
+        })
     }
 
     render(){
@@ -24,11 +40,12 @@ class Orders extends Component{
                 
                 <div className="card-list" id="cards" >
                     {
-                        this.props.orders.map((order, index) => {
+                        this.state.orders && 
+                        this.state.orders.map((order, index) => {
                                 return(
                                     <div key={index}>
                                         <h2 className="horizontal-line-css">Order Number: {order.id} </h2>
-                                        {
+                                        {   order.products && 
                                             order.products.map((item,ind) => {
                                                 return(
                                                     <div className="card" key={ind}>
